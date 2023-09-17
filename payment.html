@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viwepoint" content="width=device-width, intiation">
+        <title> payment form </title>
+        <link rel="stylesheet" href="CSS\mega.css">
+    </head>
+    <body>
+        <form action=" num  ">
+             <header><h1>Payment form</h1></header>
+             <h2>Contact information</h2>
+            <p>
+                Name:<input type="siddharth" name="Name"id="" required>
+            </p> 
+           <fieldset>
+            <legend>Gender</legend>
+            <p>
+                Male: <input type="radio" name="gender" id="male" required>
+                Female: <input type="radio" name="gender" id="female" required>
+                Trans: <input type="radio" name="gender" id="Trans" required>
+            </p>
+           </fieldset>
+           <p>
+            Address: <br>
+            <textarea name="address" id="address" cols="70" rows="10" required></textarea>
+           </p>
+           <p>
+            Email: <input type="email" name="email" id="email" required>
+           </p>
+           <p>
+            Pincode: <input type="number" name="" pincode id="pincode" required>
+           </p>
+           <h2>Payment information</h2>
+           <p>Card :
+            <select name="card type" id=" card type" required>
+            <option value="">--Select a card type--</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">mastercard</option>
+            </select>
+        </p>
+        <p>
+            card number: <input type="number" name="card_number" id="card_number" required>
+        </p>
+        <p>
+            expiry date: <input type="date" name="exp_date" id="exp_date" required>
+        </p>
+        <p>
+            CVV: <input type="password" name="CVV" id="CVV" required>
+        </p>
+        <p>
+            <input type="submit" value="Pay Now" >
+        </p>
+
+        
+        </form>
+    
+    
+    </body>
+    
+    </html>
